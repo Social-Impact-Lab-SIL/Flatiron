@@ -1,12 +1,12 @@
-# [Project Title]
+# [State Paid Sick Leave Mandates and Timeliness of Systemic Treatment Initiation Among Patients with Advanced and Metastatic Solid Tumors]
 
-**Status:** [Active / Under Review / Published / Archived]  
-**Maintainer:** [Name, SIL role]  
-**Last Updated:** [Month Year]
+**Status:** [Under Review]  
+**Maintainer:** [Serena Phillips, Senior Data Scientist]  
+**Last Updated:** [October 2025]
 
 ## Overview
 
-[1–2 sentences describing what this project is and what research question it addresses.]
+[This project examines whether state level paid sick leave (PSL) mandates affected timeliness of first line systemic therapy initiation among patients newly diagnosed with advanced or metastatic solid tumors. It uses deidentified electronic health record-derived cancer patient data from ten solid tumor cohorts from the Flatiron Health Research Database. Since data are proprietary, only the analytic code is provided.]
 
 ## Repository Structure
 ├── data/           # Raw and processed data (not committed — see .gitignore)
@@ -17,16 +17,16 @@
 
 ## Requirements
 
-[List the software and packages needed to run this project, e.g., Stata 17, R 4.x, Python 3.x]
+[Stata 18.0]
 
 ## How to Run
 
-[Step-by-step instructions for running the analysis from scratch.]
+[Data construction files should be run in numeric order. The "Paper..." program contains code for analysis. The "Map..." program contains code for generating a map describing the study status of each state.]
 
 ## Data Sources
 
-[List the data sources used, where they come from, and any access restrictions.]
+[Flatiron Health Research Database.]
 
 ## Contact
 
-[Name] — [email] — Social Impact Lab, University of Missouri
+[Serena Phillips] — [sphillips@missouri.edu] — Social Impact Lab, University of Missouri
