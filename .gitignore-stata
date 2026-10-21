@@ -1,0 +1,15 @@
+# Stata temporary files
+# Ignore all Stata data
+*.dta
+
+# BUT keep these specific replication files
+# Note: 100MB limit per file. 5GB total SIL replication repository limit. Please host all large data files externally!
+!final_analysis_data.dta
+!variable_crosswalk.dta
+*.gph
+*.log
+*.smcl
+*.stpr
+*.stsem
+*.stswc
+*.stul

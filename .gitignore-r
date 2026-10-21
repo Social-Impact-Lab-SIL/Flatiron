@@ -1,0 +1,19 @@
+# R workspace and history
+.Rhistory
+.RData
+.Ruserdata
+
+# DATA FILES
+# Note: 100MB limit per file. 5GB total SIL replication repository limit. 
+# Large .Rda or .rds files should be hosted externally.
+*.RData
+*.Rda
+*.rds
+
+# BUT keep these specific replication files
+#!processed_summary.rds
+
+# Built packages and temporary files
+*.tar.gz
+*.zip
+.Rproj.user/
